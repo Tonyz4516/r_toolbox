@@ -5,6 +5,7 @@ wordcloud <- function(dataframe) {
   #count <- 0
   if (length(dataframe[1,]) != 2) {stop("Please input df with 2 cols")}
   for(i in 1:length(dataframe[,1])){
+    cat("\n")
     for (m in 1:dataframe[i,2]){
       cat(paste0(dataframe[i,1]," "))
       #count <- count + 1
