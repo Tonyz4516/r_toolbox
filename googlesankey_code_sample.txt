@@ -13,28 +13,12 @@
        data.addColumn('string', 'To');
        data.addColumn('number', 'Weight');
        data.addRows([
-         ['EJE', 'EWR', 4],
-         ['Hudson', 'DFW', 1],
-         ['Hudson', 'EWR', 7],
-         ['Hudson', 'JFK', 35],
-         ['Hudson', 'LAX', 12],
-         ['Hudson', 'ORD', 6],
-         ['Hudson', 'SEA', 2],
-         ['DFASS', 'DFW', 8],
-         ['DFS', 'JFK', 7],
-         ['DFS', 'LAX', 3],
-         ['DFS', 'SFO', 10],
-         ['dutyfree americas', 'DFW', 2],
-         ['Paradies Lagardere', 'DFW', 6],
-         ['Paradies Lagardere', 'JFK', 15],
-         ['Paradies Lagardere', 'LAX', 13],
-         ['Unknown/Small Business', 'DFW', 59],
-         ['Unknown/Small Business', 'EWR', 37],
-         ['Unknown/Small Business', 'JFK', 115],
-         ['Unknown/Small Business', 'LAX', 41],
-         ['Unknown/Small Business', 'ORD', 20],
-         ['Unknown/Small Business', 'SEA', 6],
-         ['Unknown/Small Business', 'SFO', 44]
+         x
+         x
+         x
+         x
+         x
+         x
        ]);
 
        // Sets chart options.
