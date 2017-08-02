@@ -1,5 +1,5 @@
 print("Many thanks to https://www.jasondavies.com/wordcloud/")
-print("This function convert data frame with Col1: word and Col2: frequency to single vector\n call wordcloud()")
+cat("This function convert data frame with Col1: word and Col2: frequency to single vector\ncall wordcloud()")
 wordcloud <- function(dataframe) {
   if (length(dataframe) != 2) {stop("Please input df with 2 cols")}
   x <- vector(mode = "character")
