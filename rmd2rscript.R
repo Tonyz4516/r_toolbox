@@ -8,8 +8,7 @@
 #' The function is quite simplisting in that it reads a .Rmd file and adds 
 #' comments to non-r code sections, while leaving R code without comments
 #' so that the interpreter can run the commands.
-#' 
-#' 
+
 print("This function is called rmd2rscript")
 
 rmd2rscript <- function(infile){
