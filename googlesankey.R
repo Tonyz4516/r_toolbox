@@ -1,8 +1,8 @@
 # sample format: [ 'A', 'X', 5 ],
-cat("This function is for prepare list for google chart sankey, function called googlesankey()")
-cat(paste0("output to ", getwd(), "/a.txt"))
-cat("sample format: [ 'A', 'X', 5 ],")
-cat("address is https://developers.google.com/chart/interactive/docs/gallery/sankey")
+print("This function is for prepare list for google chart sankey, function called googlesankey()")
+print(paste0("output to ", getwd(), "/a.txt"))
+print("sample format: [ 'A', 'X', 5 ],")
+print("address is https://developers.google.com/chart/interactive/docs/gallery/sankey")
 
 googlesankey <- function(df) {
   if (length(df) == 3) {
