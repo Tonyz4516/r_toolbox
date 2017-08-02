@@ -1,2 +1,3 @@
 # r_toolbox
-This is tools for r by other people or me
+This is a collection of tools for r
+Some of these tools are not created by me, please do not use it for any commercial purpose.
