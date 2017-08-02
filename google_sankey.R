@@ -1,6 +1,6 @@
 # sample format: [ 'A', 'X', 5 ],
 print("This function is for prepare list for google chart sankey, function called googlesankey()")
-print(paste("output to ", getwd(), " a.txt")
+print(paste0("output to ", getwd(), " a.txt"))
 print("sample format: [ 'A', 'X', 5 ],")
 print("address is https://developers.google.com/chart/interactive/docs/gallery/sankey")
    
