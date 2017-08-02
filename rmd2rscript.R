@@ -10,6 +10,8 @@
 #' so that the interpreter can run the commands.
 #' 
 #' 
+print("This function is called rmd2rscript")
+
 rmd2rscript <- function(infile){
   # read the file
   flIn <- readLines(infile)
