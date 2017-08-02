@@ -4,7 +4,7 @@ print("sample format: [ 'A', 'X', 5 ],")
 print("address is https://developers.google.com/chart/interactive/docs/gallery/sankey")
 googlesankey <- function(df) {
   if (length(df) == 3) {
-    sink("../../Desktop/a.txt")
+    sink("a.txt")
     for (i in 1:length(df[,1])) {
       print(paste0("[ '",df[i,1],"', '",df[i,2],"', ",df[i,3]," ],"))
     }
