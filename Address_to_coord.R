@@ -1,4 +1,6 @@
 addresstocoord <- function(address) {
+  # print welcome msg
+  print("Call function addresstocoord(), output is a dataframe of latitude & longitude")
   # check if address is a vector
   if(!is.vector(address)) {
     stop("address must be vector!")
@@ -19,6 +21,7 @@ addresstocoord <- function(address) {
       df[i,1] <- NA
       df[i,2] <- NA
     }
+    print(paste0(i," of ", length(address), " converted."))
     Sys.sleep(0.2)  # API only allows 5 requests per second
   }
   df
