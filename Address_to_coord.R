@@ -1,6 +1,7 @@
+# print welcome msg
+print("Call function addresstocoord(), output is a dataframe of latitude & longitude")
+
 addresstocoord <- function(address) {
-  # print welcome msg
-  print("Call function addresstocoord(), output is a dataframe of latitude & longitude")
   # check if address is a vector
   if(!is.vector(address)) {
     stop("address must be vector!")
