@@ -1,0 +1,1 @@
+install.packages(c("AER", "ggmap", "sp", "knitr", "tidyr", "swirl"))
